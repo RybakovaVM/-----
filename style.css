@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    max-width: 1000px;
+    background-color: rgb(182, 182, 182);
+    margin: 0 auto;
+    padding: 10px;
+}
+.images{
+    display: none;
+}
+.image{
+    width: 300px;
+    background-color: rgb(41, 41, 134);
+    color: white;
+    border-radius: 5px;
+}
+img{
+    width: 300px;
+}
+@media (max-width: 800px){
+    .images2{
+        display: none;
+    }
+    .images{
+        display: flex;
+        margin: 5px;
+    }
+}
+@media (max-width: 600px){
+    .images2{
+        display: none;
+    }
+    .images{
+        display: block;
+        margin: 5px;
+    }
+}
+@media (max-width: 500px){
+    .images2{
+        display: none;
+    }
+    .images{
+        display: contents;
+        margin: 5px;
+    }
+}
